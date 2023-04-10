@@ -21,3 +21,25 @@ Automatically detects common Architect files, including:
 - `config.arc` + `.arc-config` - function configs
 
 [Learn more about the Architect format here](https://arc.codes/docs/en/guides/get-started/project-layout)
+
+## Installation
+
+Download with your favorite package manager.
+
+```vim
+" Vim-Plug
+Plug 'architect/vim-plugin'
+```
+
+```vim
+" Vundle
+Plugin 'architect/vim-plugin'
+```
+
+```lua
+-- Packer
+use 'architect/vim-plugin'
+```
+
+If you prefer to you vim's built-in package manager run `:help
+packages` and follow the instructions from there.
